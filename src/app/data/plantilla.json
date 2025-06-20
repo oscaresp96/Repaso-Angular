@@ -1,272 +1,134 @@
 [
   {
-    "nombre": "Fátima Mendez",
-    "edad": 26,
-    "puesto": "Pediatra",
-    "sueldo": 60000,
-    "antiguedad": 2,
-    "foto": "https://randomuser.me/api/portraits/women/1.jpg",
-    "id": 4345
-  },
-  {
-    "nombre": "Carlos Ramírez",
+    "id": 1001,
+    "nombre": "Dra. Mariana Torres",
+    "especialidad": "Cardiología",
     "edad": 35,
-    "puesto": "Psiquiatra",
-    "sueldo": 52000,
     "antiguedad": 5,
-    "foto": "https://randomuser.me/api/portraits/men/2.jpg",
-    "id": 4114
-  },
-  {
-    "nombre": "Lucía Torres",
-    "edad": 31,
-    "puesto": "Neuróloga",
-    "sueldo": 60000,
-    "antiguedad": 6,
-    "foto": "https://randomuser.me/api/portraits/women/3.jpg",
-    "id": 1794
-  },
-  {
-    "nombre": "Miguel Soto",
-    "edad": 27,
-    "puesto": "Cardiólogo",
-    "sueldo": 38000,
-    "antiguedad": 2,
-    "foto": "https://randomuser.me/api/portraits/men/4.jpg",
-    "id": 1596
-  },
-  {
-    "nombre": "Diana López",
-    "edad": 40,
-    "puesto": "Gastroenteróloga",
-    "sueldo": 68000,
-    "antiguedad": 8,
-    "foto": "https://randomuser.me/api/portraits/women/5.jpg",
-    "id": 5007
-  },
-  {
-    "nombre": "Juan Pérez",
-    "edad": 33,
-    "puesto": "Reumatólogo",
     "sueldo": 50000,
-    "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/men/6.jpg",
-    "id": 7542
+    "ciudad": "Ciudad de México",
+    "telefono": "+52 55 1234 5678",
+    "foto": "https://randomuser.me/api/portraits/women/44.jpg"
   },
   {
-    "nombre": "Mariana Herrera",
-    "edad": 26,
-    "puesto": "Anestesiologa",
-    "sueldo": 45000,
-    "antiguedad": 2,
-    "foto": "https://randomuser.me/api/portraits/women/7.jpg",
-    "id": 4212
-  },
-  {
-    "nombre": "Fernando Díaz",
-    "edad": 37,
-    "puesto": "Dermatologo",
-    "sueldo": 72000,
-    "antiguedad": 9,
-    "foto": "https://randomuser.me/api/portraits/men/8.jpg",
-    "id": 8542
-  },
-  {
-    "nombre": "Laura Sánchez",
-    "edad": 30,
-    "puesto": "Oftalmóloga",
-    "sueldo": 47000,
-    "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/women/9.jpg",
-    "id": 6784
-  },
-  {
-    "nombre": "David Núñez",
-    "edad": 32,
-    "puesto": "Ortopedista",
-    "sueldo": 55000,
-    "antiguedad": 5,
-    "foto": "https://randomuser.me/api/portraits/men/10.jpg",
-    "id": 1375
-  },
-  {
-    "nombre": "Patricia Ortega",
-    "edad": 34,
-    "puesto": "Traumatóloga",
-    "sueldo": 60000,
-    "antiguedad": 6,
-    "foto": "https://randomuser.me/api/portraits/women/11.jpg",
-    "id": 6341
-  },
-  {
-    "nombre": "José González",
-    "edad": 28,
-    "puesto": "Neuorcirujano",
-    "sueldo": 37000,
-    "antiguedad": 2,
-    "foto": "https://randomuser.me/api/portraits/men/12.jpg",
-    "id": 5051
-  },
-  {
-    "nombre": "Daniela Castro",
-    "edad": 25,
-    "puesto": "Ginecologa",
-    "sueldo": 44000,
-    "antiguedad": 1,
-    "foto": "https://randomuser.me/api/portraits/women/13.jpg",
-    "id": 7220
-  },
-  {
-    "nombre": "Luis Morales",
-    "edad": 39,
-    "puesto": "Endocrinólogo",
-    "sueldo": 90000,
+    "id": 1002,
+    "nombre": "Dr. Luis Ramírez",
+    "especialidad": "Neurología",
+    "edad": 42,
     "antiguedad": 10,
-    "foto": "https://randomuser.me/api/portraits/men/14.jpg",
-    "id": 1410
+    "sueldo": 60000,
+    "ciudad": "Guadalajara",
+    "telefono": "+52 33 9876 5432",
+    "foto": "https://randomuser.me/api/portraits/men/55.jpg"
   },
   {
-    "nombre": "Isabel Navarro",
-    "edad": 29,
-    "puesto": "Médica general",
-    "sueldo": 58000,
-    "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/women/15.jpg",
-    "id": 4299
-  },
-  {
-    "nombre": "Ricardo Jiménez",
-    "edad": 36,
-    "puesto": "Cirujano plástico",
-    "sueldo": 65000,
-    "antiguedad": 7,
-    "foto": "https://randomuser.me/api/portraits/men/16.jpg",
-    "id": 2631
-  },
-  {
-    "nombre": "Gabriela Reyes",
-    "edad": 31,
-    "puesto": "Especialista en Medicina Interna",
-    "sueldo": 61000,
-    "antiguedad": 5,
-    "foto": "https://randomuser.me/api/portraits/women/17.jpg",
-    "id": 1729
-  },
-  {
-    "nombre": "Diego Vázquez",
-    "edad": 27,
-    "puesto": "Otorrinolaringólogo",
-    "sueldo": 48000,
-    "antiguedad": 3,
-    "foto": "https://randomuser.me/api/portraits/men/18.jpg",
-    "id": 6129
-  },
-  {
-    "nombre": "Sofía Rivas",
-    "edad": 33,
-    "puesto": "Radioterapista",
-    "sueldo": 53000,
-    "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/women/19.jpg",
-    "id": 6958
-  },
-  {
-    "nombre": "Héctor Mendoza",
-    "edad": 38,
-    "puesto": "Fisioterapeuta",
-    "sueldo": 70000,
-    "antiguedad": 6,
-    "foto": "https://randomuser.me/api/portraits/men/20.jpg",
-    "id": 4837
-  },
-  {
-    "nombre": "Valeria Cruz",
-    "edad": 30,
-    "puesto": "Analista de Laboratorio",
-    "sueldo": 59000,
-    "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/women/21.jpg",
-    "id": 7896
-  },
-  {
-    "nombre": "Álvaro Esquivel",
-    "edad": 34,
-    "puesto": "Psicologo Clínico",
-    "sueldo": 46000,
-    "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/men/22.jpg",
-    "id": 6696
-  },
-  {
-    "nombre": "Jimena Silva",
-    "edad": 26,
-    "puesto": "Nutriologa",
-    "sueldo": 42000,
-    "antiguedad": 2,
-    "foto": "https://randomuser.me/api/portraits/women/23.jpg",
-    "id": 5677
-  },
-  {
-    "nombre": "Ernesto Salgado",
-    "edad": 41,
-    "puesto": "Cirujano General",
-    "sueldo": 64000,
-    "antiguedad": 9,
-    "foto": "https://randomuser.me/api/portraits/men/24.jpg",
-    "id": 6425
-  },
-  {
-    "nombre": "Renata Carrillo",
+    "id": 1003,
+    "nombre": "Dra. Isabel Jiménez",
+    "especialidad": "Pediatría",
     "edad": 28,
-    "puesto": "Podologa",
-    "sueldo": 55000,
     "antiguedad": 3,
-    "foto": "https://randomuser.me/api/portraits/women/25.jpg",
-    "id": 3310
+    "sueldo": 45000,
+    "ciudad": "Monterrey",
+    "telefono": "+52 81 2345 6789",
+    "foto": "https://randomuser.me/api/portraits/women/65.jpg"
   },
   {
-    "nombre": "Mauricio Treviño",
-    "edad": 36,
-    "puesto": "Urologo",
-    "sueldo": 75000,
-    "antiguedad": 5,
-    "foto": "https://randomuser.me/api/portraits/men/26.jpg",
-    "id": 9877
+    "id": 1004,
+    "nombre": "Dr. Fernando Rivas",
+    "especialidad": "Gastroenterología",
+    "edad": 45,
+    "antiguedad": 15,
+    "sueldo": 70000,
+    "ciudad": "Puebla",
+    "telefono": "+52 22 3456 7890",
+    "foto": "https://randomuser.me/api/portraits/men/64.jpg"
   },
   {
-    "nombre": "Alejandra Beltrán",
-    "edad": 32,
-    "puesto": "Hematóloga",
-    "sueldo": 61000,
-    "antiguedad": 6,
-    "foto": "https://randomuser.me/api/portraits/women/27.jpg",
-    "id": 1103
-  },
-  {
-    "nombre": "Pablo Méndez",
-    "edad": 29,
-    "puesto": "Infectologo",
-    "sueldo": 67000,
-    "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/men/28.jpg",
-    "id": 9505
-  },
-  {
-    "nombre": "Carmen Aguilar",
+    "id": 1005,
+    "nombre": "Dra. Laura Mendoza",
+    "especialidad": "Ginecología",
     "edad": 30,
-    "puesto": "Nefrologa",
-    "sueldo": 56000,
     "antiguedad": 4,
-    "foto": "https://randomuser.me/api/portraits/women/29.jpg",
-    "id": 8314
+    "sueldo": 48000,
+    "ciudad": "Tijuana",
+    "telefono": "+52 66 1234 5678",
+    "foto": "https://randomuser.me/api/portraits/women/32.jpg"
   },
   {
-    "nombre": "Jorge Valdés",
+    "id": 1006,
+    "nombre": "Dr. Andrés López",
+    "especialidad": "Dermatología",
+    "edad": 38,
+    "antiguedad": 8,
+    "sueldo": 52000,
+    "ciudad": "Cancún",
+    "telefono": "+52 98 7654 3210",
+    "foto": "https://randomuser.me/api/portraits/men/75.jpg"
+  },
+  {
+    "id": 1007,
+    "nombre": "Dra. Paula Ortega",
+    "especialidad": "Oftalmología",
+    "edad": 33,
+    "antiguedad": 6,
+    "sueldo": 49000,
+    "ciudad": "Querétaro",
+    "telefono": "+52 44 5678 1234",
+    "foto": "https://randomuser.me/api/portraits/women/12.jpg"
+  },
+  {
+    "id": 1008,
+    "nombre": "Dr. Ricardo Salazar",
+    "especialidad": "Ortopedia",
     "edad": 40,
-    "puesto": "Imagenologo",
-    "sueldo": 95000,
-    "antiguedad": 11,
-    "foto": "https://randomuser.me/api/portraits/men/30.jpg",
-    "id": 4270
+    "antiguedad": 12,
+    "sueldo": 55000,
+    "ciudad": "León",
+    "telefono": "+52 47 8901 2345",
+    "foto": "https://randomuser.me/api/portraits/men/28.jpg"
+  },
+  {
+    "id": 1009,
+    "nombre": "Dra. Andrea Núñez",
+    "especialidad": "Psiquiatría",
+    "edad": 29,
+    "antiguedad": 2,
+    "sueldo": 47000,
+    "ciudad": "Mérida",
+    "telefono": "+52 99 8765 4321",
+    "foto": "https://randomuser.me/api/portraits/women/50.jpg"
+  },
+  {
+    "id": 1010,
+    "nombre": "Dr. Miguel Herrera",
+    "especialidad": "Urología",
+    "edad": 37,
+    "antiguedad": 9,
+    "sueldo": 53000,
+    "ciudad": "San Luis Potosí",
+    "telefono": "+52 48 1234 5678",
+    "foto": "https://randomuser.me/api/portraits/men/11.jpg"
+  },
+  {
+    "id": 1011,
+    "nombre": "Dra. Renata Villalobos",
+    "especialidad": "Endocrinología",
+    "edad": 31,
+    "antiguedad": 7,
+    "sueldo": 51000,
+    "ciudad": "Hermosillo",
+    "telefono": "+52 66 9876 5432",
+    "foto": "https://randomuser.me/api/portraits/women/23.jpg"
+  },
+  {
+    "id": 1012,
+    "nombre": "Dr. Esteban Castillo",
+    "especialidad": "Medicina Interna",
+    "edad": 46,
+    "antiguedad": 20,
+    "sueldo": 75000,
+    "ciudad": "Veracruz",
+    "telefono": "+52 29 3456 7890",
+    "foto": "https://randomuser.me/api/portraits/men/39.jpg"
   }
 ]

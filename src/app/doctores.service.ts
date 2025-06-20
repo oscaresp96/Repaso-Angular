@@ -5,7 +5,7 @@ import { Doctor } from './models/doctor';
   providedIn: 'root',
 })
 export class DoctoresService {
-  doctores: Doctor[] = plantilla;
+doctores: Doctor[] = plantilla;
   constructor() {}
   ngOnInit(): void {}
   getAll(): Doctor[] {

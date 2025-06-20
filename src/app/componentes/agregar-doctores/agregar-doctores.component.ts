@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Doctor } from '../../models/doctor';
 import { DoctoresService } from '../../doctores.service';
 import { FormsModule } from '@angular/forms';
+
 @Component({
   selector: 'app-agregar-doctores',
   imports: [FormsModule],
@@ -11,12 +12,15 @@ import { FormsModule } from '@angular/forms';
 export class AgregarDoctoresComponent {
   mensajeExito: string = '';
 
-trabajador: Doctor = {
+doctor: Doctor = {
   id: 0,
   nombre: '',
   edad: 0,
   sueldo: 0,
   antiguedad: 0,
+  especialidad: '',
+  ciudad: '',
+  telefono: '',
   foto: ''
   };
 constructor(private doctoresService: DoctoresService) { }
@@ -29,21 +33,24 @@ asignarFotoAleatoria(){
   }else{
     genero =  'men';
   }
-  this.trabajador.foto = `https://randomuser.me/api/portraits/${genero}/${id}.jpg`;
+  this.doctor.foto = `https://randomuser.me/api/portraits/${genero}/${id}.jpg`;
 }
 guardar(){
-  this.doctoresService.create(this.trabajador);
+  this.doctoresService.create(this.doctor);
   this.limpiar();
-  console.log('Trabajador:',this.trabajador);
+  console.log('Trabajador:',this.doctor);
   console.log('¿es femenino?', this.esFemenino);
 }
 limpiar(): void {
-  this.trabajador = {
+  this.doctor = {
     id: 0,
     nombre: '',
     edad: 0,
     sueldo: 0,
     antiguedad: 0,
+    especialidad: '',
+    ciudad: '',
+    telefono: '',
     foto: ''
   };
 this.esFemenino = false;

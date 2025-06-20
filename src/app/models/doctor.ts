@@ -5,4 +5,7 @@ export interface Doctor{
     antiguedad:number;
     foto:string;
     id:number;
+    especialidad: string;
+    ciudad: string;
+    telefono: string;
 }
