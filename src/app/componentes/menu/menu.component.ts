@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
+
 @Component({
   selector: 'app-menu',
   imports: [RouterLink],
@@ -7,5 +8,11 @@ import { RouterLink } from '@angular/router';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
+  constructor(private router: Router) {}
 
+  consultar(id: string){
+    if (id){
+    this.router.navigate(['/consulta', id]);
+    }
+  }
 }
