@@ -25,6 +25,7 @@ doctor: Doctor = {
   };
 constructor(private doctoresService: DoctoresService) { }
 esFemenino: boolean = false;
+
 asignarFotoAleatoria(){
   let genero;
   const id= Math.floor(Math.random() * 100);
@@ -35,6 +36,7 @@ asignarFotoAleatoria(){
   }
   this.doctor.foto = `https://randomuser.me/api/portraits/${genero}/${id}.jpg`;
 }
+
 guardar(){
   this.doctoresService.create(this.doctor);
   this.limpiar();

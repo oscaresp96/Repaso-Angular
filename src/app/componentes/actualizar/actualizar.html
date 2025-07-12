@@ -1,9 +1,3 @@
-@if(mensajeEliminado!==""){
-    <div class="alert alert-success text-center alerta-flotante">
-        {{mensajeEliminado}}
-    </div>
-}
-
 @if (doctores.length>0){
 <div class="table-responsive t-4 -50 mx-auto big-light border p-3">
     <table class="table table-bordered table-hover align-middle text-center">
@@ -28,7 +22,7 @@
                     {{doc.nombre}}
                 </td>
                 <td>
-                    <button (click)="elinimarDoctor(doc.id)" class="btn btn-danger btn-sm">Eliminar</button>
+                    <button (click)="irAEditar(doc.id)" class="btn btn-warning btn-sm">Actualizar</button>
                 </td>
             </tr>
             }
